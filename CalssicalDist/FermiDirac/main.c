@@ -16,7 +16,7 @@ int main() {
    
   fscanf(fin,"%lf %lf %lf %lf\n", &E_F, &T1, &T2, &T3);  
   fclose(fin);
-  printf("%lf %lf %lf %lf\n", E_F, T1, T2, T2);
+  printf("%lf %lf %lf %lf\n", E_F, T1, T2, T3);
   for(i=1; i<=n; i++) {
     E=0.001*(double) i;
     fprintf(fout,"%lf %lf %lf %lf\n", E, fx(E,E_F,k_B*T1), 
